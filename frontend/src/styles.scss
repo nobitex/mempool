@@ -1,9 +1,15 @@
 /* Bootstrap */
 
+@font-face {
+  font-family: Iranian-Sans;
+  src: url("resources/Iranian-Sans.ttf");
+}
+
 $body-bg: #1d1f31;
 $body-color: #fff;
 $gray-800: #1d1f31;
 $gray-700: #fff;
+$myfont: Iranian-Sans;
 
 $nav-tabs-link-active-bg: #11131f;
 
@@ -56,6 +62,7 @@ body {
   background-color: #11131f;
   min-width: 375px;
   padding-bottom: 60px;
+  font-family: $myfont;
 }
 
 .container {
