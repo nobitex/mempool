@@ -22,4 +22,4 @@ jobs:
           cache-dependency-path: frontend/package-lock.json
       - run: npm install
       - run: npm run build
-      - run: rysnc -a ./dist/mempool/ ngwa1:/var/www/mempool/
+      - run: /usr/bin/rsync -a ./dist/mempool/ ngwa1:/var/www/mempool/
