@@ -34,7 +34,7 @@ export class LanguageSelectorComponent implements OnInit {
     if (this.languages.map((lang) => lang.code).indexOf(urlLanguage) > -1) {
       this.languageForm.get('language').setValue(urlLanguage);
     } else {
-      this.languageForm.get('language').setValue('en');
+      this.languageForm.get('language').setValue('fa');
     }
   }
 
@@ -43,7 +43,7 @@ export class LanguageSelectorComponent implements OnInit {
     try {
       document.cookie = `lang=${language}; expires=Thu, 18 Dec 2050 12:00:00 UTC; path=/`;
     } catch (e) { }
-    
+
     if (this.stateService.env.BASE_MODULE === 'mempool') {
       this.document.location.href = `/${language}/${this.stateService.network}`;
     } else {
