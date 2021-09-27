@@ -4,6 +4,7 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 import { Language, languages } from 'src/app/app.constants';
 import { StateService } from 'src/app/services/state.service';
 
+
 @Component({
   selector: 'app-language-selector',
   templateUrl: './language-selector.component.html',
@@ -38,8 +39,7 @@ export class LanguageSelectorComponent implements OnInit {
     }
   }
 
-  changeLanguage() {
-    const language = this.languageForm.get('language').value;
+  changeLanguage(language) {
     try {
       document.cookie = `lang=${language}; expires=Thu, 18 Dec 2050 12:00:00 UTC; path=/`;
     } catch (e) { }

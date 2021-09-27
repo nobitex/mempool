@@ -130,20 +130,20 @@
     </ng-template>
   </div>
 
-  <button type="button" class="btn btn-secondary btn-sm d-block mx-auto" (click)="toggleCollapsed()">
+  <button type="button" class="btn btn-secondary d-block mx-auto btn-lg px-5" (click)="toggleCollapsed()">
     <div [ngSwitch]="collapseLevel">
       <fa-icon *ngSwitchCase="'three'" [icon]="['fas', 'angle-down']" [fixedWidth]="true" i18n-title="dashboard.expand" title="Expand"></fa-icon>
       <fa-icon *ngSwitchDefault [icon]="['fas', 'angle-up']" [fixedWidth]="true" i18n-title="dashboard.collapse" title="Collapse"></fa-icon>
     </div>
   </button>
 
-  <app-language-selector></app-language-selector>
+<!--  <app-language-selector></app-language-selector>-->
 
-  <div class="terms-of-service">
-    <a [routerLink]="['/terms-of-service']" i18n="shared.terms-of-service|Terms of Service">Terms of Service</a>
-    |
-    <a [routerLink]="['/privacy-policy']" i18n="shared.privacy-policy|Privacy Policy">Privacy Policy</a>
-  </div>
+<!--  <div class="terms-of-service">-->
+<!--    <a [routerLink]="['/terms-of-service']" i18n="shared.terms-of-service|Terms of Service">Terms of Service</a>-->
+<!--    |-->
+<!--    <a [routerLink]="['/privacy-policy']" i18n="shared.privacy-policy|Privacy Policy">Privacy Policy</a>-->
+<!--  </div>-->
 
 </div>
 

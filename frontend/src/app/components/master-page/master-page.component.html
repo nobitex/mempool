@@ -1,7 +1,7 @@
 <ng-container *ngIf="{ val: network$ | async } as network">
   <header>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-      <a class="navbar-brand" [routerLink]="['/' | relativeUrl]" style="position: relative;">
+      <a class="navbar-brand" [routerLink]="['/' | relativeUrl]" style="position: relative; margin-left: 30px;">
         <ng-container *ngIf="{ val: connectionState$ | async } as connectionState">
           <img [src]="officialMempoolSpace ? './resources/mempool-space-logo.png' : './resources/mempool-logo.png'"
                height="35" width="140" class="logo" [ngStyle]="{'opacity': connectionState.val === 2 ? 1 : 0.5 }">

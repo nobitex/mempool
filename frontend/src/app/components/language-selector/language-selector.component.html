@@ -1,5 +1,11 @@
-<div [formGroup]="languageForm" class="text-small text-center">
-    <select formControlName="language" class="custom-select custom-select-sm form-control-secondary form-control mx-auto" style="width: 130px;" (change)="changeLanguage()">
-        <option *ngFor="let lang of languages" [value]="lang.code">{{ lang.name }}</option>
-    </select>
-</div>
+<button id="lang-btn" igxButton="raised"
+        [igxToggleAction]="dropdown"
+        [igxDropDownItemNavigation]="dropdown">
+  <img src="./resources/language-icon.png" alt="language-icon" width="20px" height="20px">
+</button>
+<igx-drop-down #dropdown>
+  <igx-drop-down-item class="igx-drop-down" *ngFor="let lan of languages" (click)="changeLanguage(lan.code)">
+    <img [src]="lan.image" width="20px" height="10px">
+    {{ lan.name }}
+  </igx-drop-down-item>
+</igx-drop-down>

@@ -23,6 +23,7 @@ import { TxFeeRatingComponent } from '../components/tx-fee-rating/tx-fee-rating.
 import { ReactiveFormsModule } from '@angular/forms';
 import { LanguageSelectorComponent } from '../components/language-selector/language-selector.component';
 import { ColoredPriceDirective } from './directives/colored-price.directive';
+import {IgxGridCommonModule, IgxSwitchModule} from 'igniteui-angular';
 
 @NgModule({
   declarations: [
@@ -57,6 +58,8 @@ import { ColoredPriceDirective } from './directives/colored-price.directive';
     NgbPaginationModule,
     NgbDropdownModule,
     NgbAccordionModule,
+    IgxGridCommonModule,
+    IgxSwitchModule,
   ],
   providers: [
     VbytesPipe,
@@ -78,6 +81,7 @@ import { ColoredPriceDirective } from './directives/colored-price.directive';
     TxFeaturesComponent,
     TxFeeRatingComponent,
     LanguageSelectorComponent,
+    // MyDropDownComponent,
     ScriptpubkeyTypePipe,
     RelativeUrlPipe,
     Hex2asciiPipe,
