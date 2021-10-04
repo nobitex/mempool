@@ -1392,6 +1392,14 @@
           <context context-type="linenumber">13,17</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="fa5848bad4d6f37858ea469de0e7d262c9106e45" datatype="html">
+        <source>one way to identify the Region of the decentralized network users is to analyze the explorers traffic and tag their users IP addresses. In order to reduse this risk for iranian users, nobitex has launched an internal explorer.This explorer is hosted on Nobitex servers and uses Mempol open source project</source>
+        <target>یکی از روش‌های شناسایی موقعیت جغرافیایی کاربران شبکه‌های غیرمتمرکز، تحلیل ترافیک اکسپلوررها و برچسب‌گذاری آدرس‌های کاربران آن است. نوبیتکس در جهت کاهش این مخاطره برای کاربران ایرانی، اقدام به راه‌اندازی یک اکسپلورر داخلی نموده است. این اکسپلورر در سرورهای نوبیتکس میزبانی می‌شود و از پروژه متن‌باز ممپول استفاده می‌کند.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about/about.component.html</context>
+          <context context-type="linenumber">16,22</context>
+        </context-group>
+      </trans-unit>
       <trans-unit datatype="html" id="a24b1c6a9c4334ba204e4cec2dd9f32ea33d043f">
         <source>Enterprise Sponsors 🚀</source>
         <target>حامیان سازمانی 🚀</target>
@@ -2018,7 +2026,7 @@
       </trans-unit>
       <trans-unit datatype="html" id="44a238eb28145f904f3a5bbfd4050987668f78d0">
         <source>Get the current total supply of the specified asset. For the native asset (L-BTC), this is calculated as [chain,mempool]_stats.peg_in_amount - [chain,mempool]_stats.peg_out_amount - [chain,mempool]_stats.burned_amount. For issued assets, this is calculated as [chain,mempool]_stats.issued_amount - [chain,mempool]_stats.burned_amount. Not available for assets with blinded issuances. If /decimal is specified, returns the supply as a decimal according to the asset's divisibility. Otherwise, returned in base units.</source>
-        <target>مقدار کل دارایی مشخص شده را برمی‌گرداند. برای دارایی‌های اصیل (L-BTC)، به این صورت محاسبه می‌شود 
+        <target>مقدار کل دارایی مشخص شده را برمی‌گرداند. برای دارایی‌های اصیل (L-BTC)، به این صورت محاسبه می‌شود
 [chain,mempool]_stats.peg_in_amount - [chain,mempool]_stats.peg_out_amount - [chain,mempool]_stats.burned_amount
 برای دارایی‌های صادر شده محاسبه آن این صورت است
  [chain,mempool]_stats.issued_amount - [chain,mempool]_stats.burned_amount.
