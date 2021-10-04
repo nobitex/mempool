@@ -10,6 +10,8 @@
 
 .igx-drop-down__item  {
   color: white;
+  max-width: 150px!important;
+  max-height: 150px!important;
 }
 
 .igx-drop-down__item:hover {
@@ -21,7 +23,10 @@
 }
 
 #lang-btn {
-  width: 25px;
+  max-width: 25px;
   height: 25px;
   margin: 0!important;
+  padding-left: 20px;
+  padding-right: 20px;
+
 }
