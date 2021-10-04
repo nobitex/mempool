@@ -17,7 +17,8 @@ import transactionUtils from './api/transaction-utils';
 import blocks from './api/blocks';
 import loadingIndicators from './api/loading-indicators';
 import { Common } from './api/common';
-import bitcoinBaseApi from './api/bitcoin/bitcoin-base.api';
+import bitcoinClient from './api/bitcoin/bitcoin-client';
+import elementsParser from './api/liquid/elements-parser';
 
 class Routes {
   constructor() {}
@@ -690,7 +691,7 @@ class Routes {
 
   public async validateAddress(req: Request, res: Response) {
     try {
-      const result = await bitcoinBaseApi.$validateAddress(req.params.address);
+      const result = await bitcoinClient.validateAddress(req.params.address);
       res.json(result);
     } catch (e) {
       res.status(500).send(e instanceof Error ? e.message : e);
@@ -752,6 +753,27 @@ class Routes {
 
     } catch (e) {
       res.status(500).send(e instanceof Error ? e.message : e);
+    }
+  }
+
+  public async $getElementsPegsByMonth(req: Request, res: Response) {
+    try {
+      const pegs = await elementsParser.$getPegDataByMonth();
+      res.json(pegs);
+    } catch (e) {
+      res.status(500).send(e instanceof Error ? e.message : e);
+    }
+  }
+
+  public async $postTransaction(req: Request, res: Response) {
+    res.setHeader('content-type', 'text/plain');
+    try {
+      const rawtx = Object.keys(req.body)[0];
+      const txIdResult = await bitcoinApi.$sendRawTransaction(rawtx);
+      res.send(txIdResult);
+    } catch (e: any) {
+      res.status(400).send(e.message && e.code ? 'sendrawtransaction RPC error: ' + JSON.stringify({ code: e.code, message: e.message })
+        : (e.message || 'Error'));
     }
   }
 }

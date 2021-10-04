@@ -11,4 +11,12 @@ export interface AbstractBitcoinApi {
   $getAddress(address: string): Promise<IEsploraApi.Address>;
   $getAddressTransactions(address: string, lastSeenTxId: string): Promise<IEsploraApi.Transaction[]>;
   $getAddressPrefix(prefix: string): string[];
+  $sendRawTransaction(rawTransaction: string): Promise<string>;
+}
+export interface BitcoinRpcCredentials {
+  host: string;
+  port: number;
+  user: string;
+  pass: string;
+  timeout: number;
 }
