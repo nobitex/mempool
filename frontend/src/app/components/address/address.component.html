@@ -1,5 +1,5 @@
 <div class="container-xl">
-  <h1 i18n="shared.address">Address</h1>
+  <h1 class="addressText" i18n="shared.address">Address</h1>
   <div class="tx-link">
     <a [routerLink]="['/address/' | relativeUrl, addressString]" >
       <span class="d-inline d-lg-none">{{ addressString | shortenString : 18 }}</span>
@@ -51,7 +51,7 @@
 
     <br>
 
-    <h2>
+    <h2 class="addressText">
       <ng-template [ngIf]="!transactions?.length">&nbsp;</ng-template>
       <ng-template i18n="X of X Address Transaction" [ngIf]="transactions?.length === 1">{{ (transactions?.length | number) || '?' }} of {{ txCount | number }} transaction</ng-template>
       <ng-template i18n="X of X Address Transactions (Plural)" [ngIf]="transactions?.length > 1">{{ (transactions?.length | number) || '?' }} of {{ txCount | number }} transactions</ng-template>
@@ -114,7 +114,7 @@
         </div>
         <div class="w-100 d-block d-md-none"></div>
         <div class="col">
-          
+
         </div>
       </div>
     </div>

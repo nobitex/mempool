@@ -678,6 +678,10 @@ th {
 .locktime { color: #ff8c00 }
 .reserved { color: #ff8c00 }
 
+#fa-lan-option{
+  display: none;
+}
+
 .rtl-layout {
   .fa-arrow-alt-circle-right {
     @extend .fa-arrow-alt-circle-right;
@@ -742,6 +746,10 @@ th {
     margin-right: 10px;
   }
 
+  .addressText {
+    float: right;
+  }
+
   .pagination-container {
     @extend .pagination-container;
     ul {
@@ -802,6 +810,14 @@ th {
   }
   .navbar-brand {
     margin: auto;
+  }
+
+  #en-lan-option {
+    display: none;
+  }
+
+  #fa-lan-option {
+    display: block;
   }
 }
 
@@ -926,6 +942,7 @@ th {
 ._ngcontent-serverapp-c130 {
   margin-top: 0 !important;
 }
+
 
 
 
