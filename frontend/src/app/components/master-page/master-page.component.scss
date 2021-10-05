@@ -62,6 +62,10 @@ li.nav-item {
   justify-content: flex-end;
   padding-left: 50px!important;
   padding-right: 70px!important;
+  @media (min-width: 375px) {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+  }
 }
 
 @media (min-width: 992px) {
@@ -70,14 +74,10 @@ li.nav-item {
   }
 }
 
-.navbar-brand {
-  width: 60%;
-  //margin: 0px!important;
-}
-
 @media (min-width: 576px) {
   .navbar-brand {
     width: 140px;
+    margin-left: 1rem;
   }
 }
 

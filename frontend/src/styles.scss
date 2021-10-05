@@ -747,14 +747,14 @@ th {
     ul {
       @extend ul;
       padding-left: 0px;
-      padding-right: 5px;
+      //padding-right: 5px;
     }
   }
 
   .search-box-container {
     @extend .search-box-container;
     margin-right: 0 !important;
-    margin-left: 0.5rem !important;
+    margin-left: 0rem !important;
   }
 
   .code {
@@ -794,6 +794,14 @@ th {
     @media (min-width: 768px) {
       margin-right: 10px;
     }
+  }
+  .navbar-nav {
+    @media (min-width: 977px){
+      margin-left: 10px;
+    }
+  }
+  .navbar-brand {
+    margin: auto;
   }
 }
 
@@ -904,7 +912,7 @@ th {
     margin: 0;
     @media (min-width: 400px) {
       width: auto;
-      padding-left: 5px;
+      //padding-left: 5px;
     }
   }
 }
