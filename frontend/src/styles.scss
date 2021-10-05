@@ -1,15 +1,15 @@
 /* Bootstrap */
 
 @font-face {
-  font-family: Iranian-Sans;
-  src: url("resources/Iranian-Sans.ttf");
+  font-family: Vazir;
+  src: url("resources/Vazir.ttf");
 }
 
 $body-bg: #1d1f31;
 $body-color: #fff;
 $gray-800: #1d1f31;
 $gray-700: #fff;
-$myfont: Iranian-Sans;
+$myfont:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Vazir, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
 $nav-tabs-link-active-bg: #11131f;
 
