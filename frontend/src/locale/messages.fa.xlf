@@ -1377,7 +1377,7 @@
       </trans-unit>
       <trans-unit datatype="html" id="4b137ec8bf73a47063740b75c0c40d5fd3c48015">
         <source>The Mempool Open Source Project</source>
-        <target>پروژهٔ متن‌باز ممپول</target>
+        <target>پروژه متن‌باز ممپول</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/about/about.component.html</context>
           <context context-type="linenumber">12</context>
@@ -1386,10 +1386,18 @@
       </trans-unit>
       <trans-unit datatype="html" id="f447b21299afc5bc9dadade96dbc90114bea837a">
         <source>Building a mempool and blockchain explorer for the Bitcoin community, focusing on the transaction fee market and multi-layer ecosystem, without any advertising, altcoins, or third-party trackers.</source>
-        <target>یک کاوشگر ممپول و بلاکچین که برای جامعه بیت‌کوین توسعه پیدا می‌کند. با تمرکز بر بازار کارمزدِ تراکنش‌ها و زیست‌بوم چند لایه. بدون تبلیغات، آلت‌کوین‌ها و مزاحمت برنامه‌های ردیاب.</target>
+        <target>یک کاوشگر ممپول و بلاکچین که با تمرکز بر بازار کارمزدِ تراکنش‌ها و زیست‌بوم چند لایه. بدون تبلیغات، آلْت‌کوین‌ها و مزاحمت برنامه‌های ردیاب، برای جامعه بیت‌کوین توسعه پیدا می‌کند.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/about/about.component.html</context>
           <context context-type="linenumber">13,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="387e00d094559972570f0638867e5a59bf8baa86" datatype="html">
+        <source>one way to identify the Region of the decentralized network users is to analyze the explorers traffic and tag their users IP addresses. In order to reduse this risk for iranian users, nobitex has launched an internal explorer.This explorer is hosted on Nobitex servers and uses Mempol open source project.</source>
+        <target>یکی از روش‌های شناسایی موقعیت جغرافیایی کاربران شبکه‌های غیرمتمرکز، تحلیل ترافیک اکسپلوررها و برچسب‌گذاری آدرس‌های کاربران آن است. نوبیتکس در جهت کاهش این مخاطره برای کاربران ایرانی، اقدام به راه‌اندازی یک اکسپلورر داخلی نموده است. این اکسپلورر در سرورهای نوبیتکس میزبانی می‌شود و از پروژه متن‌باز ممپول استفاده می‌کند.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about/about.component.html</context>
+          <context context-type="linenumber">64,65</context>
         </context-group>
       </trans-unit>
       <trans-unit id="fa5848bad4d6f37858ea469de0e7d262c9106e45" datatype="html">
@@ -1397,7 +1405,7 @@
         <target>یکی از روش‌های شناسایی موقعیت جغرافیایی کاربران شبکه‌های غیرمتمرکز، تحلیل ترافیک اکسپلوررها و برچسب‌گذاری آدرس‌های کاربران آن است. نوبیتکس در جهت کاهش این مخاطره برای کاربران ایرانی، اقدام به راه‌اندازی یک اکسپلورر داخلی نموده است. این اکسپلورر در سرورهای نوبیتکس میزبانی می‌شود و از پروژه متن‌باز ممپول استفاده می‌کند.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/about/about.component.html</context>
-          <context context-type="linenumber">16,22</context>
+          <context context-type="linenumber">14,19</context>
         </context-group>
       </trans-unit>
       <trans-unit datatype="html" id="a24b1c6a9c4334ba204e4cec2dd9f32ea33d043f">
@@ -2898,7 +2906,7 @@
       </trans-unit>
       <trans-unit datatype="html" id="block.component.browser-title">
         <source>Block <x equiv-text="block.height" id="BLOCK_HEIGHT"/>: <x equiv-text="block.id" id="BLOCK_ID"/></source>
-        <target>بلاک <x equiv-text="block.height" id="BLOCK_HEIGHT"/>: <x equiv-text="block.id" id="BLOCK_ID"/></target>
+        <target>بلاک<x equiv-text="block.height" id="BLOCK_HEIGHT"/>: <x equiv-text="block.id" id="BLOCK_ID"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/block/block.component.ts</context>
           <context context-type="linenumber">106</context>

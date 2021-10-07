@@ -760,10 +760,6 @@
           <context context-type="linenumber">111,118</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/about/about.component.html</context>
-          <context context-type="linenumber">30,32</context>
-        </context-group>
-        <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/api-docs/api-docs.component.html</context>
           <context context-type="linenumber">893,895</context>
         </context-group>
@@ -965,7 +961,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/transactions-list/transactions-list.component.html</context>
-          <context context-type="linenumber">180,181</context>
+          <context context-type="linenumber">181,182</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8fe73a4787b8068b2ba61f54ab7e0f9af2ea1fc9" datatype="html">
@@ -1008,7 +1004,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/transactions-list/transactions-list.component.html</context>
-          <context context-type="linenumber">219,220</context>
+          <context context-type="linenumber">220,221</context>
         </context-group>
         <note priority="1" from="description">Transaction singular confirmation count</note>
         <note priority="1" from="meaning">shared.confirmation-count.singular</note>
@@ -1029,7 +1025,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/transactions-list/transactions-list.component.html</context>
-          <context context-type="linenumber">220,221</context>
+          <context context-type="linenumber">221,222</context>
         </context-group>
         <note priority="1" from="description">Transaction plural confirmation count</note>
         <note priority="1" from="meaning">shared.confirmation-count.plural</note>
@@ -1273,7 +1269,7 @@
         <source>The Mempool Open Source Project</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/about/about.component.html</context>
-          <context context-type="linenumber">13</context>
+          <context context-type="linenumber">12</context>
         </context-group>
         <note priority="1" from="description">about.about-the-project</note>
       </trans-unit>
@@ -1281,28 +1277,15 @@
         <source>Building a mempool and blockchain explorer for the Bitcoin community, focusing on the transaction fee market and multi-layer ecosystem, without any advertising, altcoins, or third-party trackers.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/about/about.component.html</context>
-          <context context-type="linenumber">14,16</context>
+          <context context-type="linenumber">13,14</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="fa5848bad4d6f37858ea469de0e7d262c9106e45" datatype="html">
-        <source>one way to identify the Region of the decentralized network users is to analyze the explorers traffic and tag their users IP addresses. In order to reduse this risk for iranian users, nobitex has launched an internal explorer.This explorer is hosted on Nobitex servers and uses Mempol open source project</source>
+      <trans-unit id="387e00d094559972570f0638867e5a59bf8baa86" datatype="html">
+        <source>one way to identify the Region of the decentralized network users is to analyze the explorers traffic and tag their users IP addresses. In order to reduse this risk for iranian users, nobitex has launched an internal explorer.This explorer is hosted on Nobitex servers and uses Mempol open source project.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/about/about.component.html</context>
-          <context context-type="linenumber">16,22</context>
+          <context context-type="linenumber">14,19</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="8f3ac0544491bf048120928d39e02a6baeb0b278" datatype="html">
-        <source>Privacy Policy</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/about/about.component.html</context>
-          <context context-type="linenumber">32,37</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/api-docs/api-docs.component.html</context>
-          <context context-type="linenumber">895,900</context>
-        </context-group>
-        <note priority="1" from="description">Privacy Policy</note>
-        <note priority="1" from="meaning">shared.privacy-policy</note>
       </trans-unit>
       <trans-unit id="004b222ff9ef9dd4771b777950ca1d0e4cd4348a" datatype="html">
         <source>About</source>
@@ -1403,7 +1386,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/transactions-list/transactions-list.component.html</context>
-          <context context-type="linenumber">228,230</context>
+          <context context-type="linenumber">229,231</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dashboard/dashboard.component.html</context>
@@ -2230,6 +2213,15 @@
         </context-group>
         <note priority="1" from="description">api-docs.websocket.websocket</note>
       </trans-unit>
+      <trans-unit id="8f3ac0544491bf048120928d39e02a6baeb0b278" datatype="html">
+        <source>Privacy Policy</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/api-docs/api-docs.component.html</context>
+          <context context-type="linenumber">895,900</context>
+        </context-group>
+        <note priority="1" from="description">Privacy Policy</note>
+        <note priority="1" from="meaning">shared.privacy-policy</note>
+      </trans-unit>
       <trans-unit id="e351b40b3869a5c7d19c3d4918cb1ac7aaab95c4" datatype="html">
         <source>API</source>
         <context-group purpose="location">
@@ -2473,7 +2465,7 @@
         </context-group>
         <note priority="1" from="description">master-page.stats</note>
       </trans-unit>
-      <trans-unit id="ec30595c00bf4a395db31c9729fcecfcbcaebe47" datatype="html">
+      <trans-unit id="f788b8523fe84606272e39798036b506c6b5d36f" datatype="html">
         <source>Genesis <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;next-previous-blocks&quot;&gt;"/><x id="START_LINK" ctype="x-a" equiv-text="&lt;a *ngIf=&quot;showNextBlocklink&quot; [routerLink]=&quot;[&apos;/block/&apos; | relativeUrl, nextBlockHeight]&quot; (click)=&quot;navigateToNextBlock()&quot; i18n-ngbTooltip=&quot;Next Block&quot; ngbTooltip=&quot;Next Block&quot; placement=&quot;bottom&quot;&gt;"/><x id="START_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;fa-icon [icon]=&quot;[&apos;fas&apos;, &apos;angle-left&apos;]&quot; [fixedWidth]=&quot;true&quot;&gt;"/><x id="CLOSE_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;/fa-icon&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="START_LINK_1" equiv-text="&lt;a [routerLink]=&quot;[&apos;/block/&apos; | relativeUrl, blockHash]&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ blockHeight }}"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span placement=&quot;bottom&quot; class=&quot;disable&quot;&gt;"/><x id="START_TAG_FA_ICON_1" ctype="x-fa_icon_1" equiv-text="&lt;fa-icon [icon]=&quot;[&apos;fas&apos;, &apos;angle-right&apos;]&quot; [fixedWidth]=&quot;true&quot;&gt;"/><x id="CLOSE_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;/fa-icon&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/block/block.component.html</context>
@@ -2493,7 +2485,7 @@
         </context-group>
         <note priority="1" from="description">Next Block</note>
       </trans-unit>
-      <trans-unit id="62322718c731deb6a1ae5dd93367ae1025a0f75d" datatype="html">
+      <trans-unit id="46b0070b115fa4f8374336a20bf610d2099b02a3" datatype="html">
         <source> Block <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;next-previous-blocks&quot;&gt;"/><x id="START_LINK" ctype="x-a" equiv-text="&lt;a *ngIf=&quot;showNextBlocklink&quot; [routerLink]=&quot;[&apos;/block/&apos; | relativeUrl, nextBlockHeight]&quot; (click)=&quot;navigateToNextBlock()&quot; i18n-ngbTooltip=&quot;Next Block&quot; ngbTooltip=&quot;Next Block&quot; placement=&quot;bottom&quot;&gt;"/><x id="START_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;fa-icon [icon]=&quot;[&apos;fas&apos;, &apos;angle-left&apos;]&quot; [fixedWidth]=&quot;true&quot;&gt;"/><x id="CLOSE_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;/fa-icon&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span *ngIf=&quot;!showNextBlocklink&quot; placement=&quot;bottom&quot; class=&quot;disable&quot;&gt;"/><x id="START_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;fa-icon [icon]=&quot;[&apos;fas&apos;, &apos;angle-left&apos;]&quot; [fixedWidth]=&quot;true&quot;&gt;"/><x id="CLOSE_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;/fa-icon&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_LINK_1" equiv-text="&lt;a [routerLink]=&quot;[&apos;/block/&apos; | relativeUrl, blockHash]&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ blockHeight }}"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="START_LINK_2" equiv-text="&lt;a *ngIf=&quot;showPreviousBlocklink &amp;&amp; block&quot; [routerLink]=&quot;[&apos;/block/&apos; | relativeUrl, block.previousblockhash]&quot; (click)=&quot;navigateToPreviousBlock()&quot; i18n-ngbTooltip=&quot;Previous Block&quot; ngbTooltip=&quot;Previous Block&quot; placement=&quot;bottom&quot;&gt;"/><x id="START_TAG_FA_ICON_1" ctype="x-fa_icon_1" equiv-text="&lt;fa-icon [icon]=&quot;[&apos;fas&apos;, &apos;angle-right&apos;]&quot; [fixedWidth]=&quot;true&quot;&gt;"/><x id="CLOSE_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;/fa-icon&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span *ngIf=&quot;!showPreviousBlocklink&quot; placement=&quot;bottom&quot; class=&quot;disable&quot;&gt;"/><x id="START_TAG_FA_ICON_1" ctype="x-fa_icon_1" equiv-text="&lt;fa-icon [icon]=&quot;[&apos;fas&apos;, &apos;angle-right&apos;]&quot; [fixedWidth]=&quot;true&quot;&gt;"/><x id="CLOSE_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;/fa-icon&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/block/block.component.html</context>
@@ -2621,7 +2613,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/transactions-list/transactions-list.component.html</context>
-          <context context-type="linenumber">212</context>
+          <context context-type="linenumber">213</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dashboard/dashboard.component.html</context>
@@ -2997,7 +2989,7 @@
         <source>TXID, block height, hash or address</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/search-form/search-form.component.html</context>
-          <context context-type="linenumber">4</context>
+          <context context-type="linenumber">5</context>
         </context-group>
         <note priority="1" from="description">search-form.searchbar-placeholder</note>
       </trans-unit>
@@ -3005,7 +2997,7 @@
         <source>Search</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/search-form/search-form.component.html</context>
-          <context context-type="linenumber">7</context>
+          <context context-type="linenumber">8</context>
         </context-group>
         <note priority="1" from="description">search-form.search-title</note>
       </trans-unit>
@@ -3302,7 +3294,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/transactions-list/transactions-list.component.html</context>
-          <context context-type="linenumber">223,227</context>
+          <context context-type="linenumber">224,228</context>
         </context-group>
         <note priority="1" from="description">Transaction unconfirmed state</note>
         <note priority="1" from="meaning">transaction.unconfirmed</note>
@@ -3460,7 +3452,7 @@
         <source>Coinbase</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/transactions-list/transactions-list.component.html</context>
-          <context context-type="linenumber">44</context>
+          <context context-type="linenumber">45</context>
         </context-group>
         <note priority="1" from="description">transactions-list.coinbase</note>
       </trans-unit>
@@ -3468,7 +3460,7 @@
         <source>(Newly Generated Coins)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/transactions-list/transactions-list.component.html</context>
-          <context context-type="linenumber">44</context>
+          <context context-type="linenumber">45</context>
         </context-group>
         <note priority="1" from="description">transactions-list.newly-generated-coins</note>
       </trans-unit>
@@ -3476,7 +3468,7 @@
         <source>Peg-in</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/transactions-list/transactions-list.component.html</context>
-          <context context-type="linenumber">46,48</context>
+          <context context-type="linenumber">47,49</context>
         </context-group>
         <note priority="1" from="description">transactions-list.peg-in</note>
       </trans-unit>
@@ -3484,7 +3476,7 @@
         <source>ScriptSig (ASM)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/transactions-list/transactions-list.component.html</context>
-          <context context-type="linenumber">79,81</context>
+          <context context-type="linenumber">80,81</context>
         </context-group>
         <note priority="1" from="description">ScriptSig (ASM)</note>
         <note priority="1" from="meaning">transactions-list.scriptsig.asm</note>
@@ -3493,7 +3485,7 @@
         <source>ScriptSig (HEX)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/transactions-list/transactions-list.component.html</context>
-          <context context-type="linenumber">83,85</context>
+          <context context-type="linenumber">84,86</context>
         </context-group>
         <note priority="1" from="description">ScriptSig (HEX)</note>
         <note priority="1" from="meaning">transactions-list.scriptsig.hex</note>
@@ -3502,7 +3494,7 @@
         <source>Witness</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/transactions-list/transactions-list.component.html</context>
-          <context context-type="linenumber">88,89</context>
+          <context context-type="linenumber">89,90</context>
         </context-group>
         <note priority="1" from="description">transactions-list.witness</note>
       </trans-unit>
@@ -3510,7 +3502,7 @@
         <source>P2SH redeem script</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/transactions-list/transactions-list.component.html</context>
-          <context context-type="linenumber">92,93</context>
+          <context context-type="linenumber">93,94</context>
         </context-group>
         <note priority="1" from="description">transactions-list.p2sh-redeem-script</note>
       </trans-unit>
@@ -3518,7 +3510,7 @@
         <source>P2WSH witness script</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/transactions-list/transactions-list.component.html</context>
-          <context context-type="linenumber">96,97</context>
+          <context context-type="linenumber">97,98</context>
         </context-group>
         <note priority="1" from="description">transactions-list.p2wsh-witness-script</note>
       </trans-unit>
@@ -3526,7 +3518,7 @@
         <source>nSequence</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/transactions-list/transactions-list.component.html</context>
-          <context context-type="linenumber">100,101</context>
+          <context context-type="linenumber">101,102</context>
         </context-group>
         <note priority="1" from="description">transactions-list.nsequence</note>
       </trans-unit>
@@ -3534,7 +3526,7 @@
         <source>Previous output script</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/transactions-list/transactions-list.component.html</context>
-          <context context-type="linenumber">104,105</context>
+          <context context-type="linenumber">105,106</context>
         </context-group>
         <note priority="1" from="description">transactions-list.previous-output-script</note>
       </trans-unit>
@@ -3542,11 +3534,11 @@
         <source>Load all</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/transactions-list/transactions-list.component.html</context>
-          <context context-type="linenumber">114,117</context>
+          <context context-type="linenumber">115,118</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/transactions-list/transactions-list.component.html</context>
-          <context context-type="linenumber">202,205</context>
+          <context context-type="linenumber">203,206</context>
         </context-group>
         <note priority="1" from="description">transactions-list.load-all</note>
       </trans-unit>
@@ -3554,7 +3546,7 @@
         <source>Peg-out to <x id="START_TAG_NG_CONTAINER" ctype="x-ng_container" equiv-text="&lt;ng-container *ngTemplateOutlet=&quot;pegOutLink&quot;&gt;"/><x id="CLOSE_TAG_NG_CONTAINER" ctype="x-ng_container" equiv-text="&lt;/ng-container&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/transactions-list/transactions-list.component.html</context>
-          <context context-type="linenumber">133,134</context>
+          <context context-type="linenumber">134,135</context>
         </context-group>
         <note priority="1" from="description">transactions-list.peg-out-to</note>
       </trans-unit>
@@ -3562,7 +3554,7 @@
         <source>ScriptPubKey (ASM)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/transactions-list/transactions-list.component.html</context>
-          <context context-type="linenumber">184,186</context>
+          <context context-type="linenumber">185,187</context>
         </context-group>
         <note priority="1" from="description">ScriptPubKey (ASM)</note>
         <note priority="1" from="meaning">transactions-list.scriptpubkey.asm</note>
@@ -3571,7 +3563,7 @@
         <source>ScriptPubKey (HEX)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/transactions-list/transactions-list.component.html</context>
-          <context context-type="linenumber">188,190</context>
+          <context context-type="linenumber">189,191</context>
         </context-group>
         <note priority="1" from="description">ScriptPubKey (HEX)</note>
         <note priority="1" from="meaning">transactions-list.scriptpubkey.hex</note>
@@ -3580,7 +3572,7 @@
         <source>data</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/transactions-list/transactions-list.component.html</context>
-          <context context-type="linenumber">192,193</context>
+          <context context-type="linenumber">193,194</context>
         </context-group>
         <note priority="1" from="description">transactions-list.vout.scriptpubkey-type.data</note>
       </trans-unit>
@@ -3588,7 +3580,7 @@
         <source>sat</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/transactions-list/transactions-list.component.html</context>
-          <context context-type="linenumber">212</context>
+          <context context-type="linenumber">213</context>
         </context-group>
         <note priority="1" from="description">sat</note>
         <note priority="1" from="meaning">shared.sat</note>
