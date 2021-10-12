@@ -1,6 +1,6 @@
 <div class="container-xl">
   <h1 class="addressText" i18n="shared.address">Address</h1>
-  <div class="tx-link">
+  <div class="tx-link pb-2">
     <a [routerLink]="['/address/' | relativeUrl, addressString]" >
       <span class="d-inline d-lg-none">{{ addressString | shortenString : 18 }}</span>
       <span class="d-none d-lg-inline">{{ addressString }}</span>
